@@ -14,8 +14,10 @@ public class Main {
         if (number == revesreNumber) {
             System.out.println(number + " Sayısı Palindrom bir sayıdır.");
             return true;
-        } else
+        } else {
+            System.out.println(number + " Sayısı Palindrom sayı değildir.");
             return false;
+        }
     }
 
     public static void main(String[] args) {
